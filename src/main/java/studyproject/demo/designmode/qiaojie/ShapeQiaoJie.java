@@ -6,8 +6,8 @@ package studyproject.demo.designmode.qiaojie;
  * @description:
  */
 public abstract class ShapeQiaoJie {
-    private Color color;
-    private Size size;
+    protected Color color;
+    protected Size size;
 
     public ShapeQiaoJie(Color color, Size size) {
         this.color = color;
