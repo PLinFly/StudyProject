@@ -17,5 +17,6 @@ public class LambdaMain {
         UseLambda useLambda = new UseLambda(() -> {
             System.out.println(1);
         });
+
     }
 }
